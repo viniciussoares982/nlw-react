@@ -1,6 +1,11 @@
-function App() {
+import { Button } from './components/Button'
+import './services/firebase'
+
+const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <div>
+      <Button />
+    </div>
   );
 }
 
